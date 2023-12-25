@@ -9,7 +9,7 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yupi</groupId>
+    <groupId>com.ljh</groupId>
     <artifactId>Intelligent-BI-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Intelligent-BI-backend</name>
