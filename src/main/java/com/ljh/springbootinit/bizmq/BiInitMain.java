@@ -13,10 +13,10 @@ public class BiInitMain {
 
         try {
             ConnectionFactory factory = new ConnectionFactory();
-            factory.setHost("localhost");
-//            factory.setHost("192.168.109.130");
-//            factory.setUsername("admin");
-//            factory.setPassword("ZTbp5GFs");
+//            factory.setHost("localhost");
+            factory.setHost("123.207.221.182");
+            factory.setUsername("guest");
+            factory.setPassword("guest");
             Connection connection = factory.newConnection();
             Channel channel = connection.createChannel();
             String EXCHANGE_NAME = BiMqConstant.BI_EXCHANGE_NAME;

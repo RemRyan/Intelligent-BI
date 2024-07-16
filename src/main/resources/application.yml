@@ -12,7 +12,7 @@ spring:
   # session 配置
   session:
     # todo 取消注释开启分布式 session（须先配置 Redis）
-    # store-type: redis
+     store-type: redis
     # 30 天过期
     timeout: 2592000
   # 数据库配置
@@ -98,3 +98,4 @@ yuapi:
   client:
     access-key: mk1nt8r5jnt67girumkfrcdld7w1gs29
     secret-key: ig7ndgjv1ajr6lk74zi7b3v079caz41f
+

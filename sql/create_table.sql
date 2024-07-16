@@ -2,6 +2,7 @@
 
 -- 创建库
 create database if not exists Intelligent_BI;
+create database if not exists intelligentbi;
 
 -- 切换库
 use Intelligent_BI;
