@@ -1,0 +1,30 @@
+# 线上配置文件
+server:
+  port: 8101
+  address: 0.0.0.0
+spring:
+  # 数据库配置
+  # todo 需替换配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://123.207.221.182:3306/intelligentbi?serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: liujiahao1112
+  # rabbitmq 配置
+  rabbitmq:
+    host: 123.207.221.182
+    port: 5672
+    username: guest
+    password: guest
+  # Redis 配置
+  # todo 需替换配置
+  redis:
+    database: 1
+    host: 123.207.221.182
+    port: 6379
+    timeout: 5000
+    password: 123456
+mybatis-plus:
+  configuration:
+    # 生产环境关闭日志
+    log-impl: ''
